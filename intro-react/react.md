@@ -140,4 +140,5 @@ Ayudas: useState, template Strings, eventos, onChange
 Agregué a su sidebar un elemento administrador, esta vista tendrá los siguientes hijos usuarios, propiedades, contratos y perfil. Por favor maneje la navegación de la vista administradora con tabs. como en este ejemplo 
 ![alt text](image-3.png)
 
+Snippets Atajos: lrc => layout y prc => page.tsx
 Generé código usando su IA  de preferencia llenar esas páginas (usuarios, propiedades, contratos y perfil). 
