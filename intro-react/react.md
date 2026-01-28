@@ -106,8 +106,6 @@ ayuda: map
 
 ![alt text](image-3.png)
 
-{color: red}(Your text here)
-
 Generé código usando su IA  de preferencia llenar esas páginas (usuarios, propiedades, contratos y perfil). 
 
 Fenced code block with 3 leading spaces, then 4 tokens
