@@ -112,3 +112,5 @@ Fenced code block with 3 leading spaces, then 4 tokens
 3 tokens - shouldn't end code block
 ~~~
 And now 4 tokens to end code block
+Snippets Atajos: lrc => layout y prc => page.tsx
+Generé código usando su IA  de preferencia llenar esas páginas (usuarios, propiedades, contratos y perfil). 
