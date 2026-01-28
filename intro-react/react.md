@@ -101,43 +101,16 @@ ayuda: map
 
 ```
 
-# useState
-Esta función la vamos a usar para manejar el estado en nuestros componentes de cliente (interacción con el usuario)
-
-* Es importante tener en cuenta que en react no se asignan variables con = , todo se maneja con funciones.
-# NOTA: TODOS LOS HOOKS SIGUEN EL PATRON use<...> Y VAN ANTES DEL RETURN
-
-ejemplos de declaración de variables
-```
-const [counter, setCounter] = useState(0);
-const [role, setRole] = useState('user');
-const [newProperty, setNewProperty] = useState({
-    zone: "",
-    price: "",
-    hasOxygen: false
-});
-```
-para usar dentro del return y template HTML usamos {counter} {role} {<variable-name>}
-
-ejemplos de asignación
-```
-setCounter(5)
-setRole('admin')
-```
-
-Ahora vamos a crear un componente para configurar un domo en Marte
-
-1. Cree un estado donde almacenar el nombre
-2. Cree un tag h1 para mostrar el nombre del domo en tiempo real 
-3. Defina una función flecha para cambiar el nombre del domo y que reciba un parámetro
-4. Retornar una h1 con el título y una caja de texto donde se va cambiar el título y cambia el título en tiempo real
-
-Notas: Los elementos HTML interactivos como btns, inputs, etc.. tienen eventos asociados siguen el patrón on<EventName> (onClick, onChange, etc..)
-
-Ayudas: useState, template Strings, eventos, onChange
-
 # Ejercicio
-Agregué a su sidebar un elemento administrador, esta vista tendrá los siguientes hijos usuarios, propiedades, contratos y perfil. Por favor maneje la navegación de la vista administradora con tabs. como en este ejemplo 
+ Agregué a su sidebar un elemento administrador, esta vista tendrá los siguientes hijos usuarios, propiedades, contratos y perfil. Por favor maneje la navegación de la vista administradora con tabs. como en este ejemplo 
+
 ![alt text](image-3.png)
 
+{color: red}(Your text here)
+
 Generé código usando su IA  de preferencia llenar esas páginas (usuarios, propiedades, contratos y perfil). 
+
+Fenced code block with 3 leading spaces, then 4 tokens
+3 tokens - shouldn't end code block
+~~~
+And now 4 tokens to end code block
