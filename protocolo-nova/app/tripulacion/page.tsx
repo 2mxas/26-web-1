@@ -26,13 +26,7 @@ export default function TripulacionPage() {
       <h1 className="text-3xl font-bold text-emerald-500 mb-8">MANIFIESTO DE TRIPULACIÓN</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {/* Renderizado de Cards aquí */}
-        <p>Tengo {tripulantes.length} tripulantes.</p>
-        <p>
-          Bienvenido, {tripulantes[0]?.firstName}
-        </p>
-        <p>
-          Bienvenido, {tripulantes[tripulantes.length-1]?.firstName}
-        </p>
+        {tripulantes.map(tripulante => <CardTripulante key = {tripulante.id} user = {tripulante}/>)}
       </div>
     </div>
   );
